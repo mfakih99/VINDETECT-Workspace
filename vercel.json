@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "name": "vindetect-ai",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
