@@ -1,0 +1,23 @@
+{
+  "name": "vindetect-ai",
+  "version": "1.0.0",
+  "description": "VinDetect.ai - AI-Powered VIN Fraud Detection & Vehicle Security",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "vin-detection",
+    "ai-fraud-detection",
+    "vehicle-security",
+    "government-solutions"
+  ],
+  "author": "VinDetect.ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vindetect-ai.git"
+  }
+}
