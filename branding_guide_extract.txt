@@ -1,0 +1,273 @@
+
+--- PAGE 1 ---
+1.0
+Brand
+Guidelines.
+All rights reserved Version 1.0 Brand Guideline
+--- PAGE 2 ---
+Index
+Content.
+1.0 - Brand Guidelines 2.0 - Brand Logo
+6.0 - Logo on Backgrounds
+Cover Lockup Logo
+Color background
+Index Content Clearspace Logo
+Dark background
+3.0 - Brand Colors
+Primary Colors
+Grayscale Colors
+Primary Colors - Logo
+4.0 - Primary Typography
+Typography
+Typography in Use
+Icons and Typography
+5.0 - Applications Icon
+Instagram Icon
+Twitter “X” Icon
+All rights reserved Index Content Brand Guideline
+--- PAGE 3 ---
+Tagline
+“Uncovering Truth, Securing Roads”
+Brand Vision Brand Voice
+VinDetect aims to be the leading authority in Vehicle Identification Authoritative, Precise, and Trustworthy: VinDetect’s brand voice firmly
+Number (VIN) analytics, providing government agencies across the establishes itself as the leading authority in VIN analytics. With a focus
+globe with state-of-the-art tools to detect and prevent VIN on unrivaled accuracy, this voice speaks directly and confidently to
+manipulation. Our vision is to cultivate trust and transparency in vehicle government agencies. It expertly communicates complex data solutions
+identification by leveraging our unparalleled, proprietary data mining in an accessible way, instilling peace of mind and ensuring compliance.
+solutions and databases. We strive to become an indispensable ally for This voice conveys a start-up freshness while maintaining the
+governmental bodies, ensuring road safety and legality through respectability and reliability critical to meet the sophisticated needs of
+innovation and precision. Our commitment is rooted in values of government entities, establishing VinDetect not just as a service
+accuracy, integrity, and innovation, with a steadfast resolve to safeguard provider, but as a critical partner in vehicle verification and safety
+society from vehicular fraud by continually advancing our technology compliance.
+and expanding our global reach.
+--- PAGE 4 ---
+2.0
+Brand
+Logo.
+All rights reserved Brand Logo Brand Guideline
+--- PAGE 5 ---
+Lockup
+Logo.
+The Lockup logo typically refers to a
+design featuring a symbol or wordmark
+that is tightly structured or “locked”
+together to communicate strength,
+security, or unity. A “lockup” can involve
+the combination of graphic elements,
+such as an icon and text, arranged in a
+fixed way to convey a brand’s identity
+or message cohesively.
+All rights reserved Brand Logo Brand Guideline
+--- PAGE 6 ---
+Lockup
+Logo Mark.
+A lockup logo mark typically refers of a
+logo (symbol or mark). This is the graphic
+element or symbol that represents the
+brand. It could be a custom-designed
+icon, abstract shape, or visual element
+that carries the brand’s identity.
+All rights reserved Brand Logo Brand Guideline
+--- PAGE 7 ---
+Clearspace
+Logo.
+Clearspace logo is the term for a specific
+amount of space that a logo must have on
+all sides, no matter where it is used. The
+reason for clearspace is to ensure that a X
+logo maximizes visibility and impact.
+Maintaining proper clearspace helps
+ensure the logo looks professional
+and doesn’t lose its visual impact in
+crowded designs.
+All rights reserved Brand Logo Brand Guideline
+--- PAGE 8 ---
+Clearspace
+Logo Mark.
+Clearspace logo mark is the term for a
+specific amount of space that a logo
+mark must have on all sides, no matter
+X
+where it is used. The reason for
+clearspace is to ensure that a logo
+maximizes visibility and impact.
+Maintaining proper clearspace helps
+ensure the logo mark looks professional
+and doesn’t lose its visual impact in
+crowded designs.
+All rights reserved Brand Logo Brand Guideline
+--- PAGE 9 ---
+3.0
+Brand
+Colors.
+All rights reserved Brand Colors Brand Guideline
+--- PAGE 10 ---
+Primary
+Colors.
+Primary Color - 01 Primary Color - 02 Primary Color - 03 Primary Color - 04
+Primary colors are the foundation of color Primary colors are the foundation of color Primary colors are the foundation of color Primary colors are the foundation of color
+theory. They are colors that cannot be theory. They are colors that cannot be theory. They are colors that cannot be theory. They are colors that cannot be
+created by mixing other colors together. created by mixing other colors together. created by mixing other colors together. created by mixing other colors together.
+These are the core colors of the brand or
+They serve as the building blocks for all They serve as the building blocks for all They serve as the building blocks for all They serve as the building blocks for all
+other colors. other colors. other colors. other colors.
+design. They are the most prominent and
+- - - -
+are used frequently across the brand
+HEX HEX HEX HEX
+materials, such as logos, websites, and #3597DB #3597DB - #8E44AD #0A0F1A #8E44AD
+packaging. A primary color palette usually
+includes key colors.
+All rights reserved Brand Colors Brand Guideline
+--- PAGE 11 ---
+Grayscale
+Colors.
+Grayscale Color - 01 Grayscale Color - 02 Grayscale Color - 03 Grayscale Color - 04
+Cloud Smoke Steel Space
+A grayscale color palette consists of
+- - - -
+varying shades of gray, ranging from
+HEX HEX HEX HEX
+#EDEFF7 #D3D6E0 #BCBFCC #9DA2B3
+pure black to pure white, with all the
+intermediate tones in between. The
+palette doesn’t contain any hue or color,
+it only varies in lightness or darkness.
+Grayscale Color - 05 Grayscale Color - 06 Grayscale Color - 07 Grayscale Color - 08
+Graphite Arsenic Phantom Black
+- - - -
+HEX HEX HEX HEX
+#6E7180 #40424D #1E1E24 #000000
+All rights reserved Brand Colors Brand Guideline
+--- PAGE 12 ---
+P. Colors
+Logo.
+A primary colors logo are considered
+basic building blocks for creating other
+colors and are often used to create a
+bold and straightforward design. These
+are useful backgrounds for Logos. Make
+sure that you can use these backgrounds.
+Only use these types of contrast for
+your Logo’s background.
+All rights reserved Brand Colors Brand Guideline
+--- PAGE 13 ---
+P. Colors
+Logo Mark.
+A primary colors logo mark are considered
+basic building blocks for creating other
+colors and are often used to create a
+bold and straightforward design. These
+are useful backgrounds for Logos. Make
+sure that you can use these backgrounds.
+Only use these types of contrast for
+your Logo’s background.
+All rights reserved Brand Colors Brand Guideline
+--- PAGE 14 ---
+4.0
+Primary
+Typography.
+All rights reserved Primary Typography Brand Guideline
+--- PAGE 15 ---
+Primary
+Typography
+Manrope
+Aa
+Primary typography refers to the main font
+ExtraLight style
+or typeface that a brand or design uses for
+its primary text, such as logos, headlines,
+Light style
+or key messaging. It plays a crucial role in
+establishing the brand’s personality and
+Regular style
+visual identity.
+Medium style
+Semibold style
+Primary
+Bold style
+Typography
+ExtraBold style
+All rights reserved Primary Typography Brand Guideline
+--- PAGE 16 ---
+In use
+Typography.
+The Next Generation.
+In-use typography refers to how a specific
+typeface or font is applied and utilized in
+various design contexts, such as in digital
+Join Here
+and print mediums. It’s not just about
+choosing a font but about how that font
+is styled, arranged, and integrated into
+the design to ensure readability, visual
+appeal, and effective communication.
+PRODUCTS NEWSLET TER
+Talk with an expert Stay updated in the
+over video. loop, once a week.
+Choose your next product
+in a guided, one-way
+johndoe@gmail.com
+video session.
+All rights reserved Primary Typography Brand Guideline
+--- PAGE 17 ---
+Icons and
+Typography.
+Continue to Checkout >
+Icons and typography are both essential
+design elements used to communicate
+Dashboard
+messages visually. They work together in
+many designs—whether it’s a website, an
+Home Search Favorites Cart
+app, or branding materials—to convey Products
+meaning quickly and effectively. Each plays
+a distinct role, but when paired well, they
+Customers
+enhance the user experience and design
+cohesion.
+Analytics
+Pay in full or pay over
+time. Your choice.
+Widgets
+Choose your next product
+in a guided, one-way.
+Reports
+All rights reserved Primary Typography Brand Guideline
+--- PAGE 18 ---
+5.0
+Applications
+Icon.
+All rights reserved Applications Icon Brand Guideline
+--- PAGE 19 ---
+Icon
+Twitter “X”.
+Twitter
+The Twitter profile icon is the image or
+avatar that represents a user’s account
+Twitter
+on the platform. It’s a customizable
+visual element that helps identify the
+Twitter
+user and set the tone for their personal
+or brand identity.
+Twitter
+All rights reserved Applications Icon Brand Guideline
+--- PAGE 20 ---
+Icon
+Instagram.
+The Instagram profile icon is the image or
+avatar that represents a user’s account
+on the platform. It’s a customizable
+Instagram
+visual element that helps identify the
+user and set the tone for their personal
+or brand identity.
+Instagram
+--- PAGE 21 ---
+6.0
+Backgrounds
+Logo.
+All rights reserved Backgrounds Logo Brand Guideline
+--- PAGE 25 ---
+T H A N K Y O U

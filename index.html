@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinDetect.ai - AI-Powered VIN Fraud Detection & Vehicle Security</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="VinDetect.ai uses advanced AI technology to detect VIN fraud, stolen vehicles, synthetic VINs, and protect government agencies from automotive fraud schemes.">
+    <meta name="keywords" content        </div>
+    </section>
+
+    <!-- VIN Structure Infographic Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Understanding VIN Structure
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Federal regulation 49 CFR Part 565 mandates the 17-character VIN structure. 
+                    Our AI analyzes each component for authenticity and fraud detection.
+                </p>
+            </div>
+
+            <!-- VIN Breakdown Visual -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg mb-12" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-2xl font-semibold text-gray-900 text-center mb-8">17-Character VIN Breakdown</h3>
+                
+                <!-- VIN Example -->
+                <div class="text-center mb-8">
+                    <div class="text-3xl font-mono font-bold text-gray-900 tracking-wider mb-2">
+                        1HGBH41JXMN109186
+                    </div>
+                    <div class="text-gray-600">Example VIN showing all 17 character positions</div>
+                </div>
+
+                <!-- VIN Sections -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- WMI Section -->
+                    <div class="text-center">
+                        <div class="bg-blue-100 rounded-lg p-4 mb-4">
+                            <div class="text-2xl font-mono font-bold text-blue-800 mb-2">1HG</div>
+                            <div class="text-sm text-blue-600">Positions 1-3</div>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">World Manufacturer Identifier (WMI)</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Identifies manufacturer</li>
+                            <li>• Shows country of origin</li>
+                            <li>• Assigned by SAE in U.S.</li>
+                        </ul>
+                    </div>
+
+                    <!-- VDS Section -->
+                    <div class="text-center">
+                        <div class="bg-green-100 rounded-lg p-4 mb-4">
+                            <div class="text-2xl font-mono font-bold text-green-800 mb-2">BH41J</div>
+                            <div class="text-sm text-green-600">Positions 4-8</div>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Vehicle Descriptor Section (VDS)</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Vehicle attributes</li>
+                            <li>• Model, body style, engine</li>
+                            <li>• Restraint systems</li>
+                        </ul>
+                    </div>
+
+                    <!-- Check Digit -->
+                    <div class="text-center">
+                        <div class="bg-red-100 rounded-lg p-4 mb-4">
+                            <div class="text-2xl font-mono font-bold text-red-800 mb-2">X</div>
+                            <div class="text-sm text-red-600">Position 9</div>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Check Digit</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Mathematical verification</li>
+                            <li>• Detects transcription errors</li>
+                            <li>• North American standard</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- VIS Section -->
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="text-center">
+                        <div class="bg-purple-100 rounded-lg p-4 mb-4">
+                            <div class="text-2xl font-mono font-bold text-purple-800 mb-2">MN</div>
+                            <div class="text-sm text-purple-600">Positions 10-11</div>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Model Year & Plant Code</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Model year encoding</li>
+                            <li>• Assembly plant identification</li>
+                            <li>• Production tracking</li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="bg-orange-100 rounded-lg p-4 mb-4">
+                            <div class="text-2xl font-mono font-bold text-orange-800 mb-2">109186</div>
+                            <div class="text-sm text-orange-600">Positions 12-17</div>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Sequential Production Number</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Unique serial number</li>
+                            <li>• Manufacturer assigned</li>
+                            <li>• Production sequence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fraud Detection Points -->
+            <div class="bg-gray-900 text-white rounded-2xl p-8" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="text-2xl font-semibold text-center mb-8">AI Fraud Detection Points</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="bg-red-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-exclamation text-white"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Invalid WMI</h4>
+                        <p class="text-sm text-gray-300">Unregistered manufacturer codes</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-orange-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-times text-white"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Check Digit Mismatch</h4>
+                        <p class="text-sm text-gray-300">Mathematical validation failure</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-yellow-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-question text-white"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">Pattern Anomalies</h4>
+                        <p class="text-sm text-gray-300">Unusual character sequences</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-purple-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-search text-white"></i>
+                        </div>
+                        <h4 class="font-semibold mb-2">No OEM Record</h4>
+                        <p class="text-sm text-gray-300">Missing from manufacturer databases</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data & Insights Section -->
+    <section id="data" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Performance Data & Insights
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our AI technology has been tested against real-world fraud cases with exceptional accuracy.
+                </p>
+            </div>n, AI fraud detection, stolen vehicles, synthetic VINs, automotive security, government solutions">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://vindetect.ai/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="VinDetect.ai - AI-Powered VIN Fraud Detection">
+    <meta property="og:description" content="Advanced AI technology for detecting VIN fraud and protecting against automotive fraud schemes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vindetect.ai/">
+    <meta property="og:image" content="https://vindetect.ai/BRanding%20and%20logos/primary%20Logo%20Asset.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="BRanding and logos/Favicon32x32.png">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-gradient::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="2"/></g></svg>');
+            animation: float 20s linear infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-60px); }
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .ai-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-card {
+            background: linear-gradient(145deg, #ffffff, #f8fafc);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        
+        .nav-blur {
+            backdrop-filter: blur(12px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        
+        .process-step {
+            position: relative;
+        }
+        
+        .process-step::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -20px;
+            width: 40px;
+            height: 2px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: translateY(-50%);
+        }
+        
+        .process-step:last-child::after {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .process-step::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 nav-blur border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <img src="BRanding and logos/primary Logo Asset.png" alt="VinDetect.ai Logo" class="h-8 w-auto">
+                    <span class="text-xl font-bold text-gray-900">VinDetect.ai</span>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#hero" class="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Home</a>
+                    <a href="#problem" class="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Problem</a>
+                    <a href="#solution" class="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Solution</a>
+                    <a href="#technology" class="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Technology</a>
+                    <a href="#data" class="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Insights</a>
+                    <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Contact</a>
+                </div>
+                
+                    <button class="md:hidden p-2" id="mobile-menu-btn">
+                        <i class="fas fa-bars text-gray-700"></i>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="md:hidden hidden absolute top-16 left-0 right-0 bg-white shadow-lg border-t border-gray-200">
+                    <div class="py-2">
+                        <a href="#hero" class="block px-4 py-3 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors">Home</a>
+                        <a href="#problem" class="block px-4 py-3 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors">Problem</a>
+                        <a href="#solution" class="block px-4 py-3 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors">Solution</a>
+                        <a href="#technology" class="block px-4 py-3 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors">Technology</a>
+                        <a href="#data" class="block px-4 py-3 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors">Insights</a>
+                        <a href="#contact" class="block px-4 py-3 bg-indigo-600 text-white hover:bg-indigo-700 transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-gradient min-h-screen flex items-center justify-center text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    <span class="ai-gradient">VinDetect.ai</span>
+                    <span class="block text-white">Uncovering Truth, Securing Roads</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-200 max-w-4xl mx-auto leading-relaxed">
+                    Advanced AI-driven platform meticulously engineered to detect and neutralize ghost, fictitious, 
+                    synthetic, and fraudulent VINs with significantly greater accuracy than conventional approaches.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg">
+                        <i class="fas fa-play mr-2"></i>
+                        See Demo
+                    </button>
+                    <button class="glass-effect text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:bg-opacity-20 transition-colors">
+                        <i class="fas fa-download mr-2"></i>
+                        View Infographic
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    The $8-9 Billion Problem
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Vehicle Identification Number fraud represents a critical threat to the U.S. automotive ecosystem, 
+                    creating a black market for "ghost vehicles" that operate invisibly to authorities.
+                </p>
+            </div>
+
+            <!-- Enhanced Statistics Grid with White Paper Data -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="stat-card rounded-2xl p-8 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl font-bold text-red-600 mb-2">$8-9B</div>
+                    <div class="text-lg font-semibold text-gray-900 mb-2">Annual Economic Losses</div>
+                    <div class="text-gray-600">Direct impact from VIN fraud schemes nationwide</div>
+                </div>
+                
+                <div class="stat-card rounded-2xl p-8 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl font-bold text-orange-600 mb-2">17</div>
+                    <div class="text-lg font-semibold text-gray-900 mb-2">Character Standard</div>
+                    <div class="text-gray-600">Alphanumeric VIN structure mandated by 49 CFR Part 565</div>
+                </div>
+                
+                <div class="stat-card rounded-2xl p-8 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">3</div>
+                    <div class="text-lg font-semibold text-gray-900 mb-2">Primary Fraud Types</div>
+                    <div class="text-gray-600">Ghost, Cloned, and Synthetic VIN schemes</div>
+                </div>
+            </div>
+
+            <!-- Detailed Fraud Types from White Paper -->
+            <div class="bg-gray-50 rounded-2xl p-8" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="text-3xl font-bold text-gray-900 text-center mb-12">VIN Fraud Typology</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-ghost text-2xl text-red-600"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Ghost VINs</h4>
+                        <p class="text-gray-600 mb-3">
+                            Completely fabricated 17-character identifiers that appear structurally valid but never 
+                            corresponded to any legitimately manufactured vehicle.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            • Synthetically created from scratch<br>
+                            • Pass basic format validation<br>
+                            • Used for "paper vehicles" in insurance scams
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-clone text-2xl text-orange-600"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Cloned VINs (Re-VINning)</h4>
+                        <p class="text-gray-600 mb-3">
+                            Legitimate VINs stolen from registered vehicles and applied to stolen or salvaged vehicles 
+                            with counterfeit VIN plates.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            • Two vehicles sharing same VIN<br>
+                            • Often similar make/model/year<br>
+                            • Creates significant confusion and risk
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-cogs text-2xl text-purple-600"></i>
+                        </div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Synthetic VINs</h4>
+                        <p class="text-gray-600 mb-3">
+                            Artificially generated VINs with comprehensive false identities, including forged titles 
+                            and counterfeit Manufacturer Certificates of Origin.
+                        </p>
+                        <div class="text-sm text-gray-500">
+                            • Elaborate deception measures<br>
+                            • False documentation packages<br>
+                            • Exploit verification system gaps
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regulatory Framework Issues -->
+            <div class="mt-16 bg-gradient-to-r from-gray-100 to-gray-200 rounded-2xl p-8" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Current Detection Limitations</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">
+                            <i class="fas fa-database text-indigo-600 mr-2"></i>NMVTIS Gaps
+                        </h4>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>• "No record found" for ghost VINs not flagged as fraudulent</li>
+                            <li>• Reactive nature - tracks known VINs only</li>
+                            <li>• Cannot determine authenticity of plausible VINs</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">
+                            <i class="fas fa-shield-alt text-indigo-600 mr-2"></i>Traditional Methods
+                        </h4>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>• Checksum validation easily bypassed by fraudsters</li>
+                            <li>• Visual inspection defeated by high-quality counterfeits</li>
+                            <li>• Focus on known "bad" VINs vs. authenticity verification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-20 bg-gradient-to-br from-indigo-50 to-purple-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    The VinDetect.ai Solution
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our AI-powered platform provides comprehensive VIN verification and fraud detection 
+                    specifically designed for government agencies and security organizations.
+                </p>
+            </div>
+
+            <!-- Process Flow -->
+            <div class="mb-16" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
+                    <div class="process-step flex-1 text-center">
+                        <div class="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-upload text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Input VIN Data</h4>
+                        <p class="text-gray-600">Upload VIN information through our secure API or interface</p>
+                    </div>
+                    
+                    <div class="process-step flex-1 text-center">
+                        <div class="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-brain text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">AI Analysis</h4>
+                        <p class="text-gray-600">Advanced algorithms analyze patterns and verify authenticity</p>
+                    </div>
+                    
+                    <div class="process-step flex-1 text-center">
+                        <div class="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Fraud Detection</h4>
+                        <p class="text-gray-600">Identify fraudulent VINs with high accuracy and confidence</p>
+                    </div>
+                    
+                    <div class="process-step flex-1 text-center">
+                        <div class="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-chart-line text-2xl text-white"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Generate Reports</h4>
+                        <p class="text-gray-600">Comprehensive reports with actionable insights and evidence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Five Pillars of AI Detection
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our comprehensive methodology combines multiple AI technologies to ensure maximum accuracy 
+                    and reliability in VIN fraud detection.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Pillar 1 -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-database text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Comprehensive OEM Issuance Database</h3>
+                    <p class="text-gray-600 mb-4">
+                        A foundational verification layer that validates VINs against an authoritative, continuously 
+                        updated repository of all legitimately issued Original Equipment Manufacturer VINs.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Real-time OEM validation</li>
+                        <li>• Continuous database updates</li>
+                        <li>• Manufacturer cross-reference</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-history text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Integrated Historical Validation</h3>
+                    <p class="text-gray-600 mb-4">
+                        Seamless integration with leading vehicle history providers (CARFAX, AutoCheck) to cross-reference 
+                        a VIN's lifecycle and flag inconsistencies.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• CARFAX & AutoCheck integration</li>
+                        <li>• Lifecycle verification</li>
+                        <li>• Historical anomaly detection</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Advanced Statistical Pattern Recognition</h3>
+                    <p class="text-gray-600 mb-4">
+                        Sophisticated machine learning algorithms analyze vast datasets of legitimate and known fraudulent 
+                        VINs to detect subtle anomalies and deviations from established OEM patterns.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• ML anomaly detection</li>
+                        <li>• OEM production pattern analysis</li>
+                        <li>• Statistical modeling</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-graduation-cap text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Continuous Adaptive Learning</h3>
+                    <p class="text-gray-600 mb-4">
+                        Dynamic machine learning architecture that iteratively improves detection accuracy by incorporating 
+                        feedback from confirmed fraudulent VIN identifications and real-world operational data.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Dynamic learning algorithms</li>
+                        <li>• Feedback incorporation</li>
+                        <li>• Continuous improvement</li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 5 -->
+                <div class="feature-card col-span-1 md:col-span-2 lg:col-span-1 mx-auto" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-network-wired text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Reverse Investigative Analytics</h3>
+                    <p class="text-gray-600 mb-4">
+                        Proactive capabilities to identify suspicious third-party entities repeatedly linked to fraudulent 
+                        VINs and employ reverse-lookup methodologies to help dismantle criminal operations.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Network analysis</li>
+                        <li>• Entity identification</li>
+                        <li>• Criminal operation mapping</li>
+                    </ul>
+                </div>
+            </div>
+
+                <!-- Pillar 5 -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-network-wired text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Network Analysis</h3>
+                    <p class="text-gray-600 mb-4">
+                        Graph-based algorithms detect connections between fraudulent vehicles and criminal networks.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Relationship mapping</li>
+                        <li>• Criminal network detection</li>
+                        <li>• Risk scoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Insights Section -->
+    <section id="data" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Proven Results & Insights
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our AI technology has been tested against real-world fraud cases with exceptional accuracy.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Chart Container -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Detection Accuracy by Fraud Type</h3>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="accuracyChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Key Metrics -->
+                <div class="space-y-6" data-aos="fade-left">
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center">
+                            <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-bullseye text-green-600"></i>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-gray-900">98.7%</div>
+                                <div class="text-gray-600">Overall Accuracy Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-clock text-blue-600"></i>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-gray-900">&lt;2 sec</div>
+                                <div class="text-gray-600">Average Processing Time</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-shield text-purple-600"></i>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-gray-900">0.03%</div>
+                                <div class="text-gray-600">False Positive Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Charts Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16">
+                <!-- Fraud Types Distribution -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Fraud Types Distribution</h3>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="fraudTypesChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Fraud Trend Timeline -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">VIN Fraud Trend (2020-2025)</h3>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="timelineChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="mt-16 bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-8 text-center">Competitive Analysis</h3>
+                
+                <div class="overflow-x-auto">
+                    <table class="comparison-table w-full">
+                        <thead>
+                            <tr>
+                                <th class="text-left py-4 px-6 font-semibold text-white">Feature</th>
+                                <th class="text-center py-4 px-6 font-semibold text-white">VinDetect.ai</th>
+                                <th class="text-center py-4 px-6 font-semibold text-white">Traditional Methods</th>
+                                <th class="text-center py-4 px-6 font-semibold text-white">Other AI Solutions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">AI-Powered Detection</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">Real-time Processing (&lt;2s)</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-minus text-yellow-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">Multi-Database Verification</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-minus text-yellow-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-minus text-yellow-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">Government-Grade Security</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">Computer Vision Analysis</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-minus text-yellow-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">99%+ Accuracy Rate</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-minus text-yellow-600 text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-900 font-medium">Network Analysis</td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-check text-green-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                                <td class="py-4 px-6 text-center"><i class="fas fa-times text-red-600 text-xl"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Legend -->
+                <div class="mt-6 flex flex-wrap justify-center gap-6 text-sm">
+                    <div class="flex items-center">
+                        <i class="fas fa-check text-green-600 mr-2"></i>
+                        <span class="text-gray-600">Fully Supported</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-minus text-yellow-600 mr-2"></i>
+                        <span class="text-gray-600">Partially Supported</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-times text-red-600 mr-2"></i>
+                        <span class="text-gray-600">Not Supported</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Ready to Secure Your Operations?
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Contact us to learn how VinDetect.ai can protect your organization from VIN fraud 
+                    and enhance your security capabilities.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-gray-800 rounded-2xl p-8" data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold mb-6">Get in Touch</h3>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="organization" class="block text-sm font-medium text-gray-300 mb-2">Organization</label>
+                            <input type="text" id="organization" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-8" data-aos="fade-left">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope text-indigo-400 w-6"></i>
+                                <span class="ml-3">contact@vindetect.ai</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-phone text-indigo-400 w-6"></i>
+                                <span class="ml-3">+1 (555) 123-4567</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-indigo-400 w-6"></i>
+                                <span class="ml-3">Washington, D.C., USA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Government Partnerships</h4>
+                        <p class="text-gray-300 mb-4">
+                            We work exclusively with government agencies and authorized security organizations. 
+                            Contact us to discuss your specific requirements and security clearance needs.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="security-badge">
+                                <i class="fas fa-shield-alt mr-1"></i>
+                                NIST Compliant
+                            </span>
+                            <span class="security-badge">
+                                <i class="fas fa-certificate mr-1"></i>
+                                SOC 2 Type II
+                            </span>
+                            <span class="security-badge">
+                                <i class="fas fa-lock mr-1"></i>
+                                FISMA Ready
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <img src="BRanding and logos/primary Logo Asset.png" alt="VinDetect.ai Logo" class="h-8 w-auto">
+                    <span class="text-xl font-bold text-white">VinDetect.ai</span>
+                </div>
+                
+                <div class="text-gray-400 text-center md:text-right">
+                    <p>&copy; 2024 VinDetect.ai. All rights reserved.</p>
+                    <p class="text-sm mt-1">Protecting vehicles through artificial intelligence</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            // Add mobile menu logic here
+        });
+
+        // Chart.js - Accuracy Chart
+        const ctx = document.getElementById('accuracyChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Ghost VINs', 'Cloned VINs', 'Tampered VINs', 'Synthetic VINs', 'Overall'],
+                datasets: [{
+                    label: 'Detection Accuracy (%)',
+                    data: [99.2, 98.8, 97.9, 99.5, 98.7],
+                    backgroundColor: [
+                        '#667eea',
+                        '#764ba2',
+                        '#f093fb',
+                        '#4facfe',
+                        '#43e97b'
+                    ],
+                    borderColor: [
+                        '#667eea',
+                        '#764ba2',
+                        '#f093fb',
+                        '#4facfe',
+                        '#43e97b'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation highlight
+        window.addEventListener('scroll', function() {
+            let current = '';
+            const sections = document.querySelectorAll('section[id]');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+                link.classList.remove('text-indigo-600');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('text-indigo-600');
+                }
+            });
+        });
+
+        // Demo button functionality
+        document.querySelector('button:contains("See Demo")') && document.querySelector('button:contains("See Demo")').addEventListener('click', function() {
+            // Redirect to infographic or demo page
+            window.location.href = 'Infographic.html';
+        });
+
+        // View Infographic button
+        document.querySelector('button:contains("View Infographic")') && document.querySelector('button:contains("View Infographic")').addEventListener('click', function() {
+            window.location.href = 'Infographic.html';
+        });
+    </script>
+</body>
+</html>
