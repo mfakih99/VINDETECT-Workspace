@@ -7,166 +7,20 @@
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="VinDetect.ai uses advanced AI technology to detect VIN fraud, stolen vehicles, synthetic VINs, and protect government agencies from automotive fraud schemes.">
-    <meta name="keywords" content        </div>
-    </section>
-
-    <!-- VIN Structure Infographic Section -->
-    <section class="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Understanding VIN Structure
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Federal regulation 49 CFR Part 565 mandates the 17-character VIN structure. 
-                    Our AI analyzes each component for authenticity and fraud detection.
-                </p>
-            </div>
-
-            <!-- VIN Breakdown Visual -->
-            <div class="bg-white rounded-2xl p-8 shadow-lg mb-12" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="text-2xl font-semibold text-gray-900 text-center mb-8">17-Character VIN Breakdown</h3>
-                
-                <!-- VIN Example -->
-                <div class="text-center mb-8">
-                    <div class="text-3xl font-mono font-bold text-gray-900 tracking-wider mb-2">
-                        1HGBH41JXMN109186
-                    </div>
-                    <div class="text-gray-600">Example VIN showing all 17 character positions</div>
-                </div>
-
-                <!-- VIN Sections -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- WMI Section -->
-                    <div class="text-center">
-                        <div class="bg-blue-100 rounded-lg p-4 mb-4">
-                            <div class="text-2xl font-mono font-bold text-blue-800 mb-2">1HG</div>
-                            <div class="text-sm text-blue-600">Positions 1-3</div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 mb-2">World Manufacturer Identifier (WMI)</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                            <li>• Identifies manufacturer</li>
-                            <li>• Shows country of origin</li>
-                            <li>• Assigned by SAE in U.S.</li>
-                        </ul>
-                    </div>
-
-                    <!-- VDS Section -->
-                    <div class="text-center">
-                        <div class="bg-green-100 rounded-lg p-4 mb-4">
-                            <div class="text-2xl font-mono font-bold text-green-800 mb-2">BH41J</div>
-                            <div class="text-sm text-green-600">Positions 4-8</div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Vehicle Descriptor Section (VDS)</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                            <li>• Vehicle attributes</li>
-                            <li>• Model, body style, engine</li>
-                            <li>• Restraint systems</li>
-                        </ul>
-                    </div>
-
-                    <!-- Check Digit -->
-                    <div class="text-center">
-                        <div class="bg-red-100 rounded-lg p-4 mb-4">
-                            <div class="text-2xl font-mono font-bold text-red-800 mb-2">X</div>
-                            <div class="text-sm text-red-600">Position 9</div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Check Digit</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                            <li>• Mathematical verification</li>
-                            <li>• Detects transcription errors</li>
-                            <li>• North American standard</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- VIS Section -->
-                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="text-center">
-                        <div class="bg-purple-100 rounded-lg p-4 mb-4">
-                            <div class="text-2xl font-mono font-bold text-purple-800 mb-2">MN</div>
-                            <div class="text-sm text-purple-600">Positions 10-11</div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Model Year & Plant Code</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                            <li>• Model year encoding</li>
-                            <li>• Assembly plant identification</li>
-                            <li>• Production tracking</li>
-                        </ul>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="bg-orange-100 rounded-lg p-4 mb-4">
-                            <div class="text-2xl font-mono font-bold text-orange-800 mb-2">109186</div>
-                            <div class="text-sm text-orange-600">Positions 12-17</div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Sequential Production Number</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                            <li>• Unique serial number</li>
-                            <li>• Manufacturer assigned</li>
-                            <li>• Production sequence</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Fraud Detection Points -->
-            <div class="bg-gray-900 text-white rounded-2xl p-8" data-aos="fade-up" data-aos-delay="400">
-                <h3 class="text-2xl font-semibold text-center mb-8">AI Fraud Detection Points</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="text-center">
-                        <div class="bg-red-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <i class="fas fa-exclamation text-white"></i>
-                        </div>
-                        <h4 class="font-semibold mb-2">Invalid WMI</h4>
-                        <p class="text-sm text-gray-300">Unregistered manufacturer codes</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="bg-orange-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <i class="fas fa-times text-white"></i>
-                        </div>
-                        <h4 class="font-semibold mb-2">Check Digit Mismatch</h4>
-                        <p class="text-sm text-gray-300">Mathematical validation failure</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="bg-yellow-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <i class="fas fa-question text-white"></i>
-                        </div>
-                        <h4 class="font-semibold mb-2">Pattern Anomalies</h4>
-                        <p class="text-sm text-gray-300">Unusual character sequences</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="bg-purple-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                            <i class="fas fa-search text-white"></i>
-                        </div>
-                        <h4 class="font-semibold mb-2">No OEM Record</h4>
-                        <p class="text-sm text-gray-300">Missing from manufacturer databases</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Data & Insights Section -->
-    <section id="data" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Performance Data & Insights
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Our AI technology has been tested against real-world fraud cases with exceptional accuracy.
-                </p>
-            </div>n, AI fraud detection, stolen vehicles, synthetic VINs, automotive security, government solutions">
+    <meta name="keywords" content="VIN fraud detection, AI fraud detection, stolen vehicles, synthetic VINs, automotive security, government solutions, vehicle identification, fraud prevention, OEM database, pattern recognition">
+    <meta name="author" content="VinDetect.ai">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://vindetect.ai/">
     
-    <!-- Open Graph -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="VinDetect.ai - AI-Powered VIN Fraud Detection">
-    <meta property="og:description" content="Advanced AI technology for detecting VIN fraud and protecting against automotive fraud schemes.">
+    <meta property="og:description" content="Advanced AI technology to detect VIN fraud, stolen vehicles, and protect against automotive fraud schemes.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vindetect.ai/">
-    <meta property="og:image" content="https://vindetect.ai/BRanding%20and%20logos/primary%20Logo%20Asset.png">
+    <meta property="og:image" content="/BRanding and logos/primary Logo Asset.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VinDetect.ai - AI-Powered VIN Fraud Detection">
+    <meta name="twitter:description" content="Advanced AI technology to detect VIN fraud, stolen vehicles, and protect against automotive fraud schemes.">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="BRanding and logos/Favicon32x32.png">
